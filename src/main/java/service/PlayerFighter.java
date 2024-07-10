@@ -28,6 +28,9 @@ public class PlayerFighter implements Fighter {
         player.setHealth(player.getHealth() - damage);
     }
 
+    public boolean isAlive() {
+        return player.isAlive();
+    }
 
     public int getHealth() {
         return player.getHealth();
